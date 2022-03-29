@@ -25,9 +25,12 @@ body, main::before{
 }
 #welcome_sign{
     position: absolute;
-    left: 100px;
-    top: 10px;
-    height: 180px;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    /* left: 100px; */
+    left: 40%;
+    top: 0px;
+    height: 100px;
 }
 #mid_content{
     position: relative;
