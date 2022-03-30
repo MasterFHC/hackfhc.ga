@@ -34,7 +34,7 @@ body, main::before{
 }
 #mid_content{
     position: relative;
-    height: 865px;
+    height: 965px;
     /* background-color: white; */
 }
 #right_bar{
@@ -43,6 +43,49 @@ body, main::before{
     width: 100px;
     height: 100%;
     background-color: rgb(66, 102, 134);
+}
+#left_content{
+    position: absolute;
+    margin: 10px;
+
+    /* background-color: red; */
+
+    height: 965px;
+    width: 80%;
+    top: 10%;
+    left: 7%;
+}
+.inner_content{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    border-radius: 5%;
+    /* margin: 10%; */
+
+    /* background-color: yellow; */
+    
+}
+.txt_content{
+    position: absolute;
+    bottom: 0%;
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 160%;
+    font-weight: bolder;
+}
+.box_content{
+    /* float: left; */
+    position: absolute;
+
+    /* background-color: green; */
+
+    height: 25%;
+    width: 25%;
 }
 .right_icon_div{
     position: relative;
