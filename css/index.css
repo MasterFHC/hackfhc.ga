@@ -6,13 +6,14 @@
 } */
 body, main::before{
     background: url("https://pic.imgdb.cn/item/6243d04427f86abb2a27e5fe.jpg") 0 / cover fixed;
+    background-size: 100% auto;
 }
 #up_bar{
     position: relative;
     left: 0px;
     top: 0px;
-    height: 100px;
-    width: 750rpx;
+    height: 9.259259259%;
+    /* width: 750rpx; */
     background-color: rgb(79, 189, 189);
 }
 #up_blank_bar{
@@ -24,13 +25,11 @@ body, main::before{
     background-image: linear-gradient(to bottom, rgb(79, 189, 189) ,rgb(66, 102, 134));
 }
 #welcome_sign{
-    position: absolute;
-    /* text-align: center; */
-    /* margin: 0 auto; */
-    /* left: 100px; */
-    left: 40%;
-    top: 0px;
-    height: 100px;
+    height: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 #mid_content{
     position: relative;
