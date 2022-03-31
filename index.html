@@ -3,9 +3,42 @@
     <meta charset="utf-8">
     <title>Official site of majestic FHC</title>
     <link rel="stylesheet" href="./css/index.css">
+    <style type="text/css">
+        /* css代码 */
+        .breath_light {
+            opacity: 0.1;                                   /* 不透明度 */
+            overflow: hidden;                               /* 溢出隐藏 */
+            background:#FF3;                            /* 背景色 */
+        /* margin: 25% auto; */                              /* 外边距 */
+        
+            /* IE10、Firefox and Opera，IE9以及更早的版本不支持 */
+            animation-name: breath;                         /* 动画名称 */
+            animation-duration: 7000ms;                         /* 动画时长3秒 */
+            animation-timing-function: ease-in-out;         /* 动画速度曲线：以低速开始和结束 */
+            animation-iteration-count: infinite;            /* 播放次数：无限 */
+        
+            /* Safari and Chrome */
+            -webkit-animation-name: breath;                 /* 动画名称 */
+            -webkit-animation-duration: 7000ms;                 /* 动画时长3秒 */
+            -webkit-animation-timing-function: ease-in-out; /* 动画速度曲线：以低速开始和结束 */
+            -webkit-animation-iteration-count: infinite;    /* 播放次数：无限 */
+        }
+        
+        @keyframes breath {
+            from { opacity: 0.2; }                          /* 动画开始时的不透明度 */
+            50%  { opacity: 0.8; }                          /* 动画50% 时的不透明度 */
+            to   { opacity: 0.2; }                          /* 动画结束时的不透明度 */    
+        }
+        
+        @-webkit-keyframes breath {
+            from { opacity: 0.2; }                          /* 动画开始时的不透明度 */
+            50%  { opacity: 0.8; }                          /* 动画50% 时的不透明度 */
+            to   { opacity: 0.2; }                          /* 动画结束时的不透明度 */
+        }
     </style>
 </head>
 <body>
+    <img class="breath_light" style="width: 100%;" src="./image/big_bgimg_dark.jpg">
     <div class="content">
         <div id="up_bar">
             <!-- <div style="text-align: center;"> -->

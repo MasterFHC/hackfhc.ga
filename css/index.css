@@ -1,13 +1,14 @@
-/* body{
+body{
     margin: 0px;
-    background: url(../image/big_bgimg_dark.jpg) no-repeat center center fixed;
+    background-color: black;
+    /* background: url(../image/big_bgimg_dark.jpg) no-repeat center center fixed;
     background-size: cover;
-    -webkit-filter: blur(9px);
-} */
-body, main::before{
-    background: url("https://pic.imgdb.cn/item/6243d04427f86abb2a27e5fe.jpg") 0 / cover fixed;
-    background-size: 100% auto;
+    -webkit-filter: blur(9px); */
 }
+/* body, main::before{ */
+    /* background: url("https://pic.imgdb.cn/item/6243d04427f86abb2a27e5fe.jpg") 0 / cover fixed; */
+    /* background-size: 100% auto; */
+/* } */
 #up_bar{
     position: relative;
     left: 0px;
